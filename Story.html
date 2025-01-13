@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Story</title>
+  <link rel="icon" type="image/g&3-icon" href="images/g&3logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script> 
+  <link rel="stylesheet" href="styles/styles_story.css">
+</head>
+<body>
+
+    <div class="container-fluid m-0" style="position: fixed; top: 10px; left: 10px; z-index: 1;">
+        <div class="row">
+            <div class="col-2 p-2">
+                <button class="btn btn1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <div class="hamburger"></div>
+                    <div class="hamburger"></div>
+                    <div class="hamburger"></div>
+                </button>
+            </div>
+            <div class="col-10">
+            </div>
+        </div>
+    </div> <!--the end of navigation bar-->
+    
+    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+        <div class="offcanvas-body">
+            <!--navigation list-->
+            <ul class="navbar-nav">
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a> 
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="Story.html">Story</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+          <hr>
+            <!--logo & title-->
+        <div class="container-fluid">
+          <div class="row p-2">
+            <div class="col-8 p-0 m-0">
+              <h4 class="ip">Goldilocks and<br>The Three Bears</h4>
+                <p class="by m-0"><small>by Robert Southey</small></p>
+            </div>
+          <div class="col-4 p-0 m-0 d-flex justify-content-center">
+            <img class="img-fluid" style="width: auto; height: auto;" src="images/g&3logo.png" alt="Goldilocks and The Three Bears">
+          </div>
+          </div>
+        </div>
+        </div>
+    </div>
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+            <h1>Goldilocks and <br>The Three Bears</h1>
+        </div>
+    </div>
+</div>
+
+<!--Story Starts-->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <img class="img-fluid" src="images/Scenes/01.PNG" alt="scene1">
+            <p class="narrator" style="text-indent: 50px;">One day Goldilocks started off into a wood to gather wild flowers, and into the fields to chase butterflies. She ran here and there, and went so far. Finally, she found herself in a lonely place, where she saw a snug little house.</p>
+            <img class="img-fluid" src="images/Scenes/02.PNG" alt="scene2">
+        </div>
+    </div>
+    <div class="row" id="Choices1">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue1">
+            <p class="dialogue-text">Oh no, where am I?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/normal.PNG" alt="dialogue2">
+            <p class="dialogue-text3">Huh? There's a house over there. Should I go and take a look?</p>
+        </div>
+    </div>
+</div>
+
+<!--Ending 1 / Continue the story-->
+<div class="container" id="Choices1">
+    <div class="row m-4">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <a class="button" href="#continue1"><span>Enter</span></a>
+            <a class="button" href="Ending1.html"><span>Walk away</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="continue1">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <img class="img-fluid" src="images/Scenes/03.PNG" alt="scene3">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/normal.PNG" alt="dialogue3">
+            <p class="dialogue-text">Hmm... The door isn't locked.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">And... She decided to enter the house.</p>
+            <img class="img-fluid my-3" src="images/Scenes/04.PNG" alt="scene4">
+            <img class="img-fluid" src="images/Scenes/05.PNG" alt="scene5">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/normal.PNG" alt="dialogue4">
+            <p class="dialogue-text">Looks quite empty.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue5">
+            <p class="dialogue-text">*Grumbles* I'm hungry...</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">Goldilocks is hungry , she wanders into the kitchen and she finds three bowls of porridge on the table.</p>
+            <h3 class="text-center">In the kitchen</h3>
+            <img class="img-fluid" src="images/Scenes/06.PNG" alt="scene6">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/normal.PNG" alt="dialogue6">
+            <p class="dialogue-text">Oh! It's porridge!</p>
+        </div>
+    </div>
+</div>
+
+<!--Decisions 1-->
+<div class="container mb-5" id="foodchoices">  
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">*Choose Porridge Size*</p>
+        </div>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Big
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/ouch.PNG" alt="dialogue7">
+                        <p class="dialogue-text">Eek! Too cold!</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Medium
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/ouch.PNG" alt="dialogue8">
+                        <p class="dialogue-text">Ouch! Too hot!</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+             Small
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/happy.PNG" alt="dialogue9">
+                        <p class="dialogue-text">Yum! Just right!</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <img class="img-fluid" src="images/Scenes/07.PNG" alt="scene7">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/happy.PNG" alt="dialogue10">
+            <p class="dialogue-text">*Burb* Mmmm~! That's delicious!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/normal.PNG" alt="dialogue11">
+            <p class="dialogue-text">I wonder what else is there in this house…</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">Goldilocks is now full and satisfied with the food and off she goes to the next location within the house. She wanders around the house and into the parlour. There she found three chairs in the room.</p>
+            <h3 class="text-center">In the parlour</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="situation3">
+    <div class="row">
+        <div class="col-12">
+            <img class="img-fluid" src="images/Scenes/08.PNG" alt="scene8">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/sleepy.PNG" alt="dialogue12">
+            <p class="dialogue-text3">I'm quite exhausted, I should take some rest.</p>
+        </div>
+    </div>
+</div>
+
+<!--Decisions 2-->
+<div class="container mb-5">  
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">*Choose Chair Size*</p>
+        </div>
+    </div>          
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+              Big
+            </button>
+          </h2>
+          <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/ouch.PNG" alt="dialogue13">
+                        <p class="dialogue-text">Too high! I don't like it high!</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+              Medium
+            </button>
+          </h2>
+          <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/ouch.PNG" alt="dialogue14">
+                        <p class="dialogue-text">Too broad! I don't like how it feels!</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+             Small
+            </button>
+          </h2>
+          <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/happy.PNG" alt="dialogue15">
+                        <p class="dialogue-text">Oh! This should be just right!</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <img src="images/Scenes/09.PNG" alt="scene9" class="img-fluid">
+            <p class="narrator">Goldilocks sat onto the chair but! It broke! Goldilocks sat in it too hard!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/ouch.PNG" alt="dialogue16">
+            <p class="dialogue-text">*Falls* Ouch!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">Now Goldilocks is very tired, she wanders to the chamber and finds three beds.</p>
+            <h3 class="text-center">In the chamber</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <img src="images/Scenes/10.PNG" alt="scene10" class="img-fluid">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Goldilock/sleepy.PNG" alt="dialogue17">
+            <p class="dialogue-text">*Yawn* So sleepy..</p>
+        </div>
+    </div>
+</div>
+
+<!--Decisions 3-->
+<div class="container mb-5">  
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">*Choose Bed Size*</p>
+        </div>
+    </div>          
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+              Big
+            </button>
+          </h2>
+          <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/ouch.PNG" alt="dialogue18">
+                        <p class="dialogue-text">Oof! Too soft..</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+              Medium
+            </button>
+          </h2>
+          <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/ouch.PNG" alt="dialogue19">
+                        <p class="dialogue-text">Eek! Too hard!</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+             Small
+            </button>
+          </h2>
+          <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                <div class="row">
+                    <div class="col-12 dialogue-panel">
+                        <img class="img-fluid" src="images/Dialogue_panel/Goldilock/happy.PNG" alt="dialogue20">
+                        <p class="dialogue-text">Oh… just right…</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 dialogue-panel">
+                    <img class="img-fluid" src="images/Dialogue_panel/Goldilock/sleepy.PNG" alt="dialogue21">
+                    <p class="dialogue-text">Zzzz...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <img src="images/Scenes/11.PNG" alt="scene11" class="img-fluid">
+            <p class="narrator">Now she fell asleep quickly.</p>
+            <p class="narrator">While Goldilocks falls asleep quickly, the three bears came home after they went walking. They come into the kitchen to eat their porridge.</p>
+            <img src="images/Scenes/12.PNG" alt="scene12" class="img-fluid">
+            <img src="images/Scenes/13.PNG" alt="scene13" class="img-fluid">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Papa_Bear/angry.PNG" alt="dialogue22">
+            <p class="dialogue-text">SOMEBODY HAS BEEN TASTING MY PORRIDGE!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Mama_Bear/shock.PNG" alt="dialogue23">
+            <p class="dialogue-text">Somebody Has Been Tasting My Porridge!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Baby_Bear/sad.PNG" alt="dialogue24">
+            <p class="dialogue-text">Somebody has tasted my porridge and eaten it all up!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">Then they went into the parlour...</p>
+            <img src="images/Scenes/14.PNG" alt="scene14" class="img-fluid">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Papa_Bear/angry.PNG" alt="dialogue25">
+            <p class="dialogue-text">SOMEBODY HAS BEEN SITTING IN MY CHAIR!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Mama_Bear/shock.PNG" alt="dialogue26">
+            <p class="dialogue-text">Somebody Has Been Sitting In My Chair!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Baby_Bear/sad.PNG" alt="dialogue27">
+            <p class="dialogue-text3">Somebody has been sitting in my chair, and has broken it all to pieces!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">So they went into the chamber...</p>
+            <img src="images/Scenes/15.PNG" alt="scene15" class="img-fluid">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Papa_Bear/angry.PNG" alt="dialogue25">
+            <p class="dialogue-text">SOMEBODY HAS BEEN TUMBLING MY BED!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Mama_Bear/shock.PNG" alt="dialogue26">
+            <p class="dialogue-text">Somebody Has Been Tumbling My Bed!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img class="img-fluid" src="images/Dialogue_panel/Baby_Bear/sad.PNG" alt="dialogue27">
+            <p class="dialogue-text">Somebody has been tumbling my bed, and here she is!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">At this moment, Goldilocks is awake.</p>
+            <img src="images/Scenes/16.PNG" alt="scene16" class="img-fluid" id="Choices2">
+        </div>
+    </div>
+</div>
+
+<!--Ending 1.5 / Ending 2 / Continue the story-->
+<div class="container">
+    <div class="row m-4">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <a class="button" href="Ending1.5.html"><span>Run</span></a>
+            <a class="button" href="Ending2.html"><span>Scream</span></a>
+            <a class="button" href="#continue2"><span>Apologise</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="continue2">
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/normal.PNG" alt="dialogue28" class="img-fluid">
+            <p class="dialogue-text2">Ahh! Are you guys the owner of the house?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Baby_Bear/angry.PNG" alt="dialogue29" class="img-fluid">
+            <p class="dialogue-text2">Yes, yes we are. Why are you here and why did you eat and break our stuff?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Mama_Bear/normal.PNG" alt="dialogue30" class="img-fluid">
+            <p class="dialogue-text2">Yes, yes we are. Why are you here and why did you eat and break our stuff?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Papa_Bear/angry.PNG" alt="dialogue31" class="img-fluid">
+            <p class="dialogue-text2">Yes, yes we are. Why are you here and why did you eat and break our stuff?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue32" class="img-fluid">
+            <p class="dialogue-text2">Ah! I'm so sorry! Where's my manner.. I am Goldilocks, you can call me Goldie.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue33" class="img-fluid">
+            <p class="dialogue-text4">I'm so sorry for intruding your house.. I'm lost in <br>the woods and I wanted to ask for directions when I saw your house.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue34" class="img-fluid">
+            <p class="dialogue-text2">The door wasn't locked so I walked in myself. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel" id="Choices3">
+            <img src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue35" class="img-fluid">
+            <p class="dialogue-text4"> I'm so sorry for eating your food and breaking your <br>stuff but I'm very hungry and exhausted...</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue36" class="img-fluid">
+            <p class="dialogue-text2">I know it's rude for me to do so... I'm very sorry I will...</p>
+        </div>
+    </div>
+</div>
+
+<!--Ending 3 / Continue the story-->
+<div class="container">
+    <div class="row m-4">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <a class="button" href="Ending3.html"><span>Leave right away</span></a>
+            <a class="button" href="#continue3"><span>Help to clean up</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="continue3">
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/ouch.PNG" alt="dialogue37" class="img-fluid">
+            <p class="dialogue-text4">I will help clean up the mess I've made and I can help with cooking too! <br>My grandma taught me how to cook before!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Mama_Bear/normal.PNG" alt="dialogue38" class="img-fluid">
+            <p class="dialogue-text2">Alright we will let you help.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Baby_Bear/happy.PNG" alt="dialogue39" class="img-fluid">
+            <p class="dialogue-text2">Let's cook something to eat first! I'm hungry!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <img src="images/Scenes/17.PNG" alt="scene17" class="img-fluid mt-4">
+            <p class="narrator">Goldilocks helps out around the house from cooking until repairing the chairs and make the bed. After they finished...
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/happy.PNG" alt="dialogue40" class="img-fluid">
+            <p class="dialogue-text">Phew! Finally done!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Baby_Bear/happy.PNG" alt="dialogue41" class="img-fluid">
+            <p class="dialogue-text">Yay! It's done!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel" id="Choices4">
+            <img src="images/Dialogue_panel/Mama_Bear/normal.PNG" alt="dialogue42" class="img-fluid">
+            <p class="dialogue-text">The sun is setting... <br>Goldie, you should go home now...</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Papa_Bear/normal.PNG" alt="dialogue43" class="img-fluid">
+            <p class="dialogue-text2">Don't worry, we will escort you out of the woods.</p>
+        </div>
+    </div>
+</div>
+
+<!--Ending 3.5 / Ending 4-->
+<div class="container">
+    <div class="row m-4">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <a class="button" href="Ending3.5.html"><span>Leave</span></a>
+            <a class="button" href="#continue4"><span>Stay</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="continue4">
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue44" class="img-fluid">
+            <p class="dialogue-text2">Uhm actually, can i stay with all of you if you don't mind..?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel" id="Choices4">
+            <img src="images/Dialogue_panel/Mama_Bear/normal.PNG" alt="dialogue45" class="img-fluid">
+            <p class="dialogue-text">Why so?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue46" class="img-fluid">
+            <p class="dialogue-text">My grandma… She had passed away… I… I don't have a family anymore…</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Baby_Bear/normal.PNG" alt="dialogue47" class="img-fluid">
+            <p class="dialogue-text">...</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel" id="Choices4">
+            <img src="images/Dialogue_panel/Mama_Bear/normal.PNG" alt="dialogue48" class="img-fluid">
+            <p class="dialogue-text">...</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Papa_Bear/normal.PNG" alt="dialogue49" class="img-fluid">
+            <p class="dialogue-text">...</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Baby_Bear/normal.PNG" alt="dialogue50" class="img-fluid">
+            <p class="dialogue-text">Hey if the two of you dont mind… <br>Can we let her stay?</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel" id="Choices4">
+            <img src="images/Dialogue_panel/Mama_Bear/normal.PNG" alt="dialogue51" class="img-fluid">
+            <p class="dialogue-text">I'm fine with the idea, Goldie cooks well.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Papa_Bear/normal.PNG" alt="dialogue52" class="img-fluid">
+            <p class="dialogue-text">Me too. She's a good helper.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Baby_Bear/happy.PNG" alt="dialogue53" class="img-fluid">
+            <p class="dialogue-text">Then that's settled! Goldie welcome to our home! Now I have a friend to play with!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Papa_Bear/normal.PNG" alt="dialogue54" class="img-fluid">
+            <p class="dialogue-text">I'll build a chair and a bed for Goldie tomorrow.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel" id="Choices4">
+            <img src="images/Dialogue_panel/Mama_Bear/normal.PNG" alt="dialogue55" class="img-fluid">
+            <p class="dialogue-text">And I'll be making a bowl for her.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Baby_Bear/happy.PNG" alt="dialogue56" class="img-fluid">
+            <p class="dialogue-text">You can sleep with me and share my stuff with me until then!</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 dialogue-panel">
+            <img src="images/Dialogue_panel/Goldilock/sad.PNG" alt="dialogue57" class="img-fluid">
+            <p class="dialogue-text">Thank you...</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="narrator">Goldilocks found a new family. A family where she longed for.</p>
+            <img src="images/endings/ending4.PNG" alt="Ending 4" class="img-fluid mb-5">
+            <h3 class="text-center">THE END</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pt-3" style="background-color: #e6e0ca;">
+    <div class="row">
+        <div class="col-12">
+            <p class="text-center">Illustration & Story Modified by Chong Yu Qing  <strong> | </strong>  Website Development by Cheah Yu Ying & Chew Siew Jin</p>  
+            <p class="text-center">Copyright © 2024 Goldilocks and The Three Bears . All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
